@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Wonyoung Fanpage</title>
+    <link rel="stylesheet" href="style.css">
+<form>
+    <fieldset>
+        <legend>Account</legend>
+        <table>
+            <tr>
+                <td><label for="uname">Username:</label></td>
+                <td><input type="text" id="uname" name="Username"></td>
+            </tr>
+            <tr>
+                <td><label for="pass">Password:</label></td>
+                <td><input type="password" id="pass" name="Password"></td>
+            </tr>
+            <tr>
+                <td><label for="confirm">Configuration password: </label></td>
+                <td><input type="password" id="confirm" name="Konfigurasi" /></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>Data</legend>
+        <table>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="Name"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><label><input type="radio" id="gender1" name="wow">Male<label><input type="radio" id="gender1" name="wow">Female</label></td>
+            </tr>         
+            <tr>
+                <td>Hobby:</td>
+                <td><label><input type="checkbox" id="hobby1" name="riyal">Swimming</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label><input type="checkbox" id="hobby2" name="riyal">Tennis</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label><input type="checkbox" id="hobby3" name="riyal">Badminton</label></td>
+            </tr>
+            <tr>
+                <td><label for="option1">Continent</label></td>
+                <td>
+                    <select name="option1" id="option1">
+                        <option value="1">Asia</option>
+                        <option value="2">Europe</option>
+                        <option value="3">North America</option>
+                        <option value="4">South America</option>
+                        <option value="5">Africa</option>
+                        <option value="6">Australia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="comments">Suggestion:</label></td>
+                <td>
+                    <textarea name="comments" id="comments" rows="3" cols="35"></textarea>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <input type="reset" value="reset" style="width:11%">
+    <input type="submit" value="submit" style="width: 11%;">
+</form>
+
+</body>
+</html>
